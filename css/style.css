@@ -1,0 +1,20 @@
+/* commons  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: url(https://eskipaper.com/images/train-wallpaper-21.jpg);
+    background-position: center;
+    height: 100vh;
+}
+
+.container_pers {
+    width: 600px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.514);
+}

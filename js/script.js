@@ -5,20 +5,17 @@
 // ======ins variabili dati
 
 let kmUser = parseFloat(prompt('Inserisci i km da percorrere'));
-if (isNaN(kmUser)){
-    alert ('Inserisci i km da percorrere')
-    console.log('non hai inserito un numero');
-}
 document.getElementById('kmUser').innerHTML = kmUser;
 console.log(kmUser);
 
 let ageUser = parseInt(prompt('Inserisci la tua età'));
-if (isNaN(ageUser)){
-    alert ('Inserisci la tua età')
-    console.log('non hai inserito un numero');
-}
 document.getElementById('ageUser').innerHTML = ageUser;
 console.log(ageUser);
+
+if (isNaN(kmUser) || isNaN(ageUser) || eta < 3){
+    alert ('Inserisci i km da percorrere')
+    console.log('non hai inserito un numero');
+} else {
 
 let price = kmUser * 0.21;
 
@@ -37,5 +34,6 @@ if (ageUser < 18) {
     console.log(price)
 }
 
+}
 
 

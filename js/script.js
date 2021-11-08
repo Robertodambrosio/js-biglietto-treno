@@ -24,7 +24,7 @@ let price = kmUser * 0.21;
 
 // ============condizione di sconto per età 
 
-if (ageUser <= 18) {
+if (ageUser < 18) {
     let newPrice = price - ((price * 20) / 100);
     document.getElementById('newPrice').innerHTML = newPrice.toFixed(2);
     console.log(newPrice);
